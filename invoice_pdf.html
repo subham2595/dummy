@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<title>Invoice PDF</title>
+	<style>
+		body{ background:#fff; font-family: 'Roboto'; } a{text-decoration: none;}
+		.fw500 {font-weight: 500;}.tc{text-align: center;}.tl{text-align: left;}.tr{text-align: right;}.m0{margin: 0}.mt15{margin-top: 15px}.mb15{margin-bottom: 15px;}.p15 {padding:15px;}.p5tb{padding: 5px 0;}.fs12{font-size: .71rem}.fs14{font-size: .9rem}.fs16{font-size: 1rem;}.fs18{font-size: 1.1rem;}.txtGrey {color: #6D6D6D;}.txtBlack{color: #000;}.txtWhite{color: #fff;}.sep{border-bottom: 1px solid #B8CDEF;padding: 5px 0;}
+	</style>
+</head>
+<body>
+	<table style="border:1px solid #B8CDEF;max-width:842px; width:100%; margin:0px auto; background-color:#fff; outline:0; border-spacing: 0;" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;" style="border-bottom: 1px solid #b8cdef;">
+					<tr>
+						<td width="50%" style="padding-left: 2rem;text-align: left;padding: .5rem;text-align: left;">
+							<img src="https://images.railyatri.in/ry_images_prod/ICLogo-1620121852.png" 
+								alt="" style="max-width: 70%;" />
+						</td>
+						<td width="50%" style="font-weight: 500;padding: .5rem;text-align: right;">
+							<span style="color: #000;font-size: .9rem;margin-right: 1rem;">
+								Order ID: 1234567
+							</span>
+      				<span style="color: #000;font-size: .9rem;">PNR: IC441105527899</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;">
+					<tr>
+						<td width="45%" style="padding: 1rem;">
+      				<p style="margin:0;color:#000;font-size: 1rem;font-weight:500;">Mumbai</p>
+		      		<p style="margin:0;color:#000;font-size: .9rem;font-weight:500;">
+		      			<span>11:35PM</span>
+		      			<span>Wednesday, 24-Feb-2021</span>
+		      		</p>
+		      		<p style="margin:0;color:#000;font-size: .71rem;">
+		      			Malad East, Pushpa Park Bus Stand (Service Road) (Mumbai)
+		      		</p>
+		      	</td>
+		      	<td width="10%" style="padding: 1rem;">
+		      		<img src="https://images.railyatri.in/ry_images_prod/path-1620123702.png" alt="">
+		      	</td>
+		      	<td width="45%" style="">
+		      		<p style="margin:0;color:#000;font-size:1rem;font-weight:500;">Ahmedabad</p>
+		      		<p style="margin:0;color:#000;font-size:.9rem;font-weight:500;">
+		      			<span>10:30 AM</span>
+		      			<span>Thursday, 25-Feb-2021</span>
+		      		</p>
+		      		<p style="margin:0;color:#000;font-size:.71rem;">
+		      			Paldi - IntrCity Lounge, G/F Shop No. 3, Onyx-2, Nr. Navchetan School, Jalaram Mandir Road (Ahmedabad)
+		      		</p>
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;">
+					<tr>
+						<td width="40%" style="padding: 1rem;">
+      				<p style="margin:0;font-size:.71rem;color: #6D6D6D;">Operator</p>
+      				<p style="margin:0;font-size:.9rem;color: #000;">IntrCity SmartBus - RailYatri</p>
+		      	</td>
+		      	<td width="40%" style="padding: 1rem;">
+		      		<p style="margin:0;font-size:.71rem;color: #6D6D6D;">Bus Type</p>
+      				<p style="margin:0;font-size:.9rem;color: #000;">Volvo AC Semi-Sleeper</p>
+		      	</td>
+		      	<td width="20%" style="padding: 1rem;text-align: right;">
+		      		<p style="margin:0;font-size:.71rem;color: #6D6D6D;">Reporting Time</p>
+      				<p style="margin:0;font-size:.9rem;color: #000;">11:10 PM</p>
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;" style="background-color: #D8ECFE;">
+					<tr>
+						<td width="35%" style="padding: .25rem 1rem;">
+      				<p style="margin:0;font-size:.71rem;color: #4C4C4C;">Passenger Name</p>
+		      	</td>
+		      	<td width="20%" style="padding: .25rem 1rem;">
+		      		<p style="margin:0;font-size:.71rem;color: #4C4C4C;">Age, Gender</p>
+		      	</td>
+		      	<td width="20%" style="padding: .25rem 1rem;">
+		      		<p style="margin:0;font-size:.71rem;color: #4C4C4C;">Contact</p>
+		      	</td>
+		      	<td width="25%" style="padding: .25rem 1rem;text-align: right;">
+		      		<p style="margin:0;font-size:.71rem;color: #4C4C4C;">Seat</p>
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;">
+					<tr>
+						<td width="35%" style="padding: .25rem 1rem;">
+      				<p style="margin:0;font-size:.9rem;color: #000;">Rakesh Ranjan</p>
+		      	</td>
+		      	<td width="20%" style="padding: .25rem 1rem;">
+		      		<p style="margin:0;font-size:.9rem;color: #000;">34, Male</p>
+		      	</td>
+		      	<td width="20%" style="padding: .25rem 1rem;">
+		      		<p style="margin:0;font-size:.9rem;color: #000;">+91 9812345980</p>
+		      	</td>
+		      	<td width="25%" style="padding: .25rem 1rem;text-align: right;">
+		      		<p style="margin:0;font-size:.9rem;color: #000;">2UC (Upper Sleeper)</p>
+		      	</td>
+					</tr>
+					<tr>
+						<td width="35%" style="padding: .25rem 1rem;">
+      				<p style="margin:0;font-size:.9rem;color: #000;">Rakesh Ranjan</p>
+		      	</td>
+		      	<td width="20%" style="padding: .25rem 1rem;">
+		      		<p style="margin:0;font-size:.9rem;color: #000;">34, Male</p>
+		      	</td>
+		      	<td width="20%" style="padding: .25rem 1rem;">
+		      		<p style="margin:0;font-size:.9rem;color: #000;"></p>
+		      	</td>
+		      	<td width="25%" style="padding: .25rem 1rem;text-align: right;">
+		      		<p style="margin:0;font-size:.9rem;color: #000;">12</p>
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;" style="border: 1px solid #b8cdef;border-left: 0;border-right: 0;background-color: #F6FBFF;">
+					<tr>
+						<td width="50%" style="padding: .5rem 1rem;border-right:1px solid #b8cdef;    vertical-align: top;">
+      				<table width="100%">
+      					<tr>
+      						<td>
+      							<p style="margin:0 0 .5em 0;font-size:.9rem;color: #000;font-weight: 500;">
+      								Hurrayyy! Smart Savings Opted by You
+      							</p>
+      							<p style="margin:0 0 .25em 0;font-size:.9rem;color: #000;">
+      								Coupon Discount (SMARTBUS): ₹ 100.00
+      							</p>
+      							<p style="margin:0 0 .5em 0;font-size:.9rem;color: #000;">
+      								Total Savings: <span style="color: #058D30; font-weight: 500;">₹ 100.00</span>
+      							</p>
+      							<p style="margin:0;font-size:.9rem;color: #000;">
+      								<span style="font-weight:500;">Note: </span>
+      								This operator accepts mTicket, you need not carry a print out.
+      							</p>
+      						</td>
+      					</tr>
+      				</table>
+		      	</td>
+
+		      	<td width="50%" style="padding: .5rem 1rem;text-align: right">
+		      		<table width="100%">
+		      			<tr>
+		      				<td width="75%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">Base Fare:</p>
+		      				</td>
+		      				<td width="25%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">&#8377; 2050.00</p>
+		      				</td>
+		      			</tr>
+		      			<tr>
+		      				<td width="75%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">Taxes & Commissions:</p>
+		      				</td>
+		      				<td width="25%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">&#8377; 100.00</p>
+		      				</td>
+		      			</tr>
+		      			<tr>
+		      				<td width="75%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">Discount:</p>
+		      				</td>
+		      				<td width="25%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">&#8377; 150.00</p>
+		      				</td>
+		      			</tr>
+		      			<tr>
+		      				<td width="75%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">Gold Card Discount:</p>
+		      				</td>
+		      				<td width="25%">
+		      					<p style="margin:0;font-size:.9rem;color: #000;">&#8377; 200.00</p>
+		      				</td>
+		      			</tr>
+		      			<tr>
+		      				<td width="75%">
+		      					<p style="font-size:1rem;color: #000;font-weight:500;margin: 10px 0;">Grand Total:</p>
+		      				</td>
+		      				<td width="25%">
+		      					<p style="font-size:1rem;color: #000;font-weight:500;margin: 10px 0;">&#8377; 4230.00</p>
+		      				</td>
+		      			</tr>
+		      		</table>
+		      		<table>
+		      			<tr>
+		      				<td width="100%" style="text-align: right;">
+		      					<p style="margin:0;font-size:.71rem;color: #000;">
+		      						Customer Paid Amount: &#8377; 2000.00
+		      					</p>
+		      					<p style="margin:0;font-size:.71rem;color: #000;">
+		      						Balance &#8377; 200.00 has been transferred to your IntrCity Wallet: 9812345678, use IntrCity App to claim your balance.
+		      					</p>
+		      				</td>
+		      			</tr>
+		      		</table>
+		      	</td>
+					</tr>
+				</table>	
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;" style="background-color: #D8ECFE;">
+					<tr>
+						<td style="padding: .25rem 1rem;">
+      				<p style="margin:0;font-size:.9rem;color: #000;"> 
+      					Whom should you contact?
+      				</p>
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;">
+					<tr>
+						<td width="50%" style="padding: .25rem 1rem;">
+      				<p style="font-size:.71rem;color: #6D6D6D;">
+      					For booking, boarding point, time and bus related queries
+      				</p>
+      				<p style="margin:0;font-size:.9rem;color: #000; font-weight:500;">+91 7303093510</p>
+      				<!-- <p style="margin:0;font-size:.71rem;color: #6D6D6D;">(Abhijot Holidays)</p> -->
+		      	</td>
+		      	<td width="50%" style="padding: .25rem 1rem;text-align: right">
+		      		<p style="font-size:.71rem;color: #6D6D6D;">
+      					For other queries
+      				</p>
+      				<p style="margin:0;font-size:.9rem;color: #000; font-weight:500;">+91 7303093510</p>
+      				<p style="margin:0;font-size:.71rem;color: #6D6D6D;">24 Hours</p>
+		      	</td>
+					</tr>
+				</table>	
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%;" style="border:1px solid #b8cdef;border-left:0;border-right: 0;border-collapse: collapse;">
+					<tr>
+						<td width="50%" style="padding:.5em 0 0 0;">
+							<p style="padding:.25em 1em; margin: 0; background-color:#D8ECFE;">Cancellation and Refund</p>
+      				<table width="100%" style="padding:.25em 1em;border: 1px solid #D6D6D6;border-collapse: collapse;">
+      					<tr>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: left;font-weight:500;">Time Before Departure</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;font-weight:500;">Refund %</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;font-weight:500;">Refund Amount</td>
+      					</tr>
+      					<tr>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: left;">
+      							Between 04-01-2022 08:15 AM and 04-01-2022 08:15 PM
+      						</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">0 %</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">&#8377; 0</td>
+      					</tr>
+      					<tr>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: left;">
+      							Between 03-01-2022 08:15 PM and 04-01-2022 08:15 AM
+      						</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">50 %</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">&#8377; 1010</td>
+      					</tr>
+      					<tr>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: left;">
+      							Between 03-01-2022 08:15 PM and 04-01-2022 08:15 AM
+      						</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">75 %</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">&#8377; 1515</td>
+      					</tr>
+      					<tr>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: left;">
+      							Between 03-01-2022 08:15 PM and 04-01-2022 08:15 AM
+      						</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">100 %</td>
+      						<td style="color:#000;font-size:12px;border: 1px solid #D6D6D6;border-collapse: collapse;padding:.5em 1em;text-align: center;">&#8377; 2021</td>
+      					</tr>
+      				</table>
+							<table style="border: 1px solid #D6D6D6;border-collapse: collapse;">
+								<tr>
+      						<td style="color:#000;font-size:12px;border-collapse: collapse;padding:.5em 1em;">
+      							<span style="font-weight: 500;">Note: </span><span>You can reschedule your ticket or opt for Flexi cancellation 6 hrs before the reporting time.</span>
+      						</td>
+      					</tr>
+							</table>
+		      	</td>
+
+
+		      	<td width="50%" style="padding: .5rem 1rem;">
+		      		
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="padding: 0;">
+				<table width="100%" style="background-color: #eee;">
+					<tr>
+						<td width="50%" style="padding: .5rem 1rem;">
+      				<p style="margin:0;font-size:.9rem;color:#000;font-weight:500;">
+      					For any clarification please e-mail us at
+      					<span style="color:#004f9e;">care@intrcity.com</span>
+      				</p>
+		      	</td>
+		      	<td width="50%" style="padding: .5rem 1rem;text-align: right">
+		      		<p style="margin:0;font-size:.9rem;color:#000;font-weight:500;">
+		      			Visit:<a href="" style="color:#004f9e;">www.intrcity.com</a>
+		      		</p>
+		      	</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		
+	</table>
+</body>
+</html>
